@@ -44,6 +44,17 @@ html {
   }
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color:white;
+}
+
+.navbar-default .navbar-toggle {
+  border:2px solid white;
+  &:hover, &:focus {
+    background-color:#1A2980;
+  } 
+}
+
 .navbar-brand {
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
